@@ -98,7 +98,7 @@ python split_patient.py \
 
 ---
 
-## 🟢 3. Classification with MedViT
+## 🛠️ 3. Classification with MedViT
 
 ### 🔹 Training – Anatomical Landmarks
 
@@ -158,7 +158,7 @@ python test_medvit_Lung_lesions_classification.py \
 
 ---
 
-## 🛠️ 5. Training Segmentation Models
+## 🛠️ 5. Training Segmentation Models with FCB-SwinV2 Transformer
 
 Before training, generate the CSV files using:
 
