@@ -223,3 +223,28 @@ python Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
 ```
 
 ---
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE.txt](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/LICENSE.txt) file for more details.
+
+---
+
+## 🙏 Acknowledgements
+
+This repository includes code from the following sources:
+
+- [BM-BronchoLC](https://github.com/csuet/bronchoscopy_nsd)  
+- [MedViT](https://github.com/omid-nejati/medvit)  
+- [FCB-SwinV2 Transformer](https://github.com/KerrFitzgerald/Polyp_FCB-SwinV2Transformer)
+
+---
+
+## 📬 Additional Information
+
+**Contact:** Rolyph Erwan NTOUTOUME NGUEMA  
+- [rolypherwan4@gmail.com](mailto:rolypherwan4@gmail.com)  
+- [rolypherwanntoutoume.nguema@upoa.edu.sn](mailto:rolypherwanntoutoume.nguema@upoa.edu.sn)  
+- [rolyph-erwan.ntoutoume-nguema.1@ens.etsmtl.ca](mailto:rolyph-erwan.ntoutoume-nguema.1@ens.etsmtl.ca)
