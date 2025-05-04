@@ -160,7 +160,7 @@ python test_medvit_Lung_lesions_classification.py \
 
 ## 🛠️ 5. Training Segmentation Models with FCB-SwinV2 Transformer
 
-Before training, generate the CSV files using:
+Before training, generate the CSV files using - [create_csv_from_folder.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/create_csv_from_folder.py) (Anatomical Landmarks) - [create_csv_from_folder.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/create_csv_from_folder.py) (Cancerous Lesions):
 
 ```bash
 python create_csv_from_folder.py \
