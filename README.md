@@ -169,7 +169,7 @@ python create_csv_from_folder.py \
 
 ---
 
-### 🔹 Training – Anatomical Landmarks - [`Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py`]()
+### 🔹 Training – Anatomical Landmarks - [`Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
 
 ```bash
 python Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
@@ -183,7 +183,7 @@ python Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
 
 ---
 
-### 🔹 Training – Cancerous Lesions - [`Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py`]()
+### 🔹 Training – Cancerous Lesions - [`Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py)
 
 ```bash
 python Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
@@ -200,7 +200,7 @@ python Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
 
 ## 🧪 6. Evaluation of Segmentation Models
 
-### 🔹 Testing – Anatomical Landmarks - [`Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py`]()
+### 🔹 Testing – Anatomical Landmarks - [`Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
 
 ```bash
 python Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
@@ -212,7 +212,7 @@ python Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
 
 ---
 
-### 🔹 Testing – Cancerous Lesions - [`Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py`]()
+### 🔹 Testing – Cancerous Lesions - [`Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py)
 
 ```bash
 python Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
@@ -245,6 +245,5 @@ This repository includes code from the following sources:
 ## 📬 Additional Information
 
 **Contact:** Rolyph Erwan NTOUTOUME NGUEMA  
-- [rolypherwan4@gmail.com](mailto:rolypherwan4@gmail.com)  
-- [rolypherwanntoutoume.nguema@upoa.edu.sn](mailto:rolypherwanntoutoume.nguema@upoa.edu.sn)  
-- [rolyph-erwan.ntoutoume-nguema.1@ens.etsmtl.ca](mailto:rolyph-erwan.ntoutoume-nguema.1@ens.etsmtl.ca)
+- email: [rolypherwan4@gmail.com](mailto:rolypherwan4@gmail.com)  
+
