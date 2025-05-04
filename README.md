@@ -81,7 +81,7 @@ python split_dataset.py \
 
 ---
 
-### 🔹 Patient-wise splitting — `split_patient.py`
+### 🔹 Patient-wise splitting — [`split_patient.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Data_division/split_patient.py)
 
 ```bash
 python split_patient.py \
@@ -100,7 +100,7 @@ python split_patient.py \
 
 ## 🛠️ 3. Classification with MedViT
 
-### 🔹 Training – Anatomical Landmarks
+### 🔹 Training – Anatomical Landmarks - [`train_medvit_Anatomical_landmarks_classification.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/train_medvit_Anatomical_landmarks_classification.py)
 
 ```bash
 python train_medvit_Anatomical_landmarks_classification.py \
@@ -115,7 +115,7 @@ python train_medvit_Anatomical_landmarks_classification.py \
 
 ---
 
-### 🔹 Training – Cancerous Lesions
+### 🔹 Training – Cancerous Lesions - [`train_medvit_Lung_lesions_classification.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/lung_lesion_Classification/train_medvit_Lung_lesions_classification.py)
 
 ```bash
 python train_medvit_Lung_lesions_classification.py \
@@ -132,7 +132,7 @@ python train_medvit_Lung_lesions_classification.py \
 
 ## 🧪 4. Evaluation of Classification Models
 
-### 🔹 Testing – Anatomical Landmarks
+### 🔹 Testing – Anatomical Landmarks - [`test_medvit_Anatomical_landmarks_classification.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/test_medvit_Anatomical_landmarks_classification.py)
 
 ```bash
 python test_medvit_Anatomical_landmarks_classification.py \
@@ -145,7 +145,7 @@ python test_medvit_Anatomical_landmarks_classification.py \
 
 ---
 
-### 🔹 Testing – Cancerous Lesions
+### 🔹 Testing – Cancerous Lesions - [`test_medvit_Lung_lesions_classification.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/lung_lesion_Classification/test_medvit_Lung_lesions_classification.py)
 
 ```bash
 python test_medvit_Lung_lesions_classification.py \
@@ -169,7 +169,7 @@ python create_csv_from_folder.py \
 
 ---
 
-### 🔹 Training – Anatomical Landmarks
+### 🔹 Training – Anatomical Landmarks - [`Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py`]()
 
 ```bash
 python Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
@@ -183,7 +183,7 @@ python Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
 
 ---
 
-### 🔹 Training – Cancerous Lesions
+### 🔹 Training – Cancerous Lesions - [`Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py`]()
 
 ```bash
 python Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
@@ -200,7 +200,7 @@ python Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
 
 ## 🧪 6. Evaluation of Segmentation Models
 
-### 🔹 Testing – Anatomical Landmarks
+### 🔹 Testing – Anatomical Landmarks - [`Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py`]()
 
 ```bash
 python Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
@@ -212,7 +212,7 @@ python Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
 
 ---
 
-### 🔹 Testing – Cancerous Lesions
+### 🔹 Testing – Cancerous Lesions - [`Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py`]()
 
 ```bash
 python Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
