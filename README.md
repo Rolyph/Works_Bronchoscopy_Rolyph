@@ -66,7 +66,7 @@ After preprocessing, the data should be organized in the following structure:
 
 Once the data is ready, it can be split using one of the two strategies:
 
-### 🔹 Random splitting — `split_dataset.py`
+### 🔹 Random splitting — [`split_dataset.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Data_division/split_dataset.py)
 
 ```bash
 python split_dataset.py \
