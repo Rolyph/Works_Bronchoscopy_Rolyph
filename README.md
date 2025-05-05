@@ -169,7 +169,7 @@ python create_csv_from_folder.py \
 
 ---
 
-#### Prerequisites for Training Segmentation Models
+### 🏷️ Prerequisites for Training Segmentation Models
 
 Before executing the main script, ensure you have the following Python scripts in your working directory, depending on the segmentation task you wish to perform:
 
