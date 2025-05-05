@@ -132,7 +132,7 @@ python train_medvit_Lung_lesions_classification.py \
 
 ## 🧪 4. Evaluation of Classification Models
 
-### 🔹 Testing – Anatomical Landmarks - [`test_medvit_Anatomical_landmarks_classification.py`](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/test_medvit_Anatomical_landmarks_classification.py)
+### 🔹 Testing – Anatomical Landmarks - [test_medvit_Anatomical_landmarks_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/test_medvit_Anatomical_landmarks_classification.py)
 
 ```bash
 python test_medvit_Anatomical_landmarks_classification.py \
