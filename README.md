@@ -169,6 +169,22 @@ python create_csv_from_folder.py \
 
 ---
 
+#### Prerequisites for Training Segmentation Models
+
+Before executing the main script, ensure you have the following Python scripts in your working directory, depending on the segmentation task you wish to perform:
+
+#### For anatomical landmarks segmentation:
+- [FCBSWINV2_TRANSFORMER_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/FCBSWINV2_TRANSFORMER_Segmentation_Anatomical_landmarks.py): Script implementing the segmentation model architecture
+- [LOADER_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/LOADER_Segmentation_Anatomical_landmarks.py): Script handling data loading and preprocessing
+- [SIA_METRICS_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/SIA_METRICS_Segmentation_Anatomical_landmarks.py): Script containing performance evaluation metrics
+
+#### For cancerous lesions segmentation:
+- [FCBSWINV2_TRANSFORMER_Segmentation_LesionsCancereuses.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/FCBSWINV2_TRANSFORMER_Segmentation_LesionsCancereuses.py): Implementation of the lesion-specific model
+- [LOADER_Segmentation_LesionsCancereuses.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/LOADER_Segmentation_LesionsCancereuses.py): Medical data loading pipeline
+- [SIA_METRICS_Segmentation_LesionsCancereuses.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/SIA_METRICS_Segmentation_LesionsCancereuses.py): Tumor-adapted evaluation metrics
+
+---
+  
 ### 🔹 Training – Anatomical Landmarks - [Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
 
 ```bash
