@@ -1,4 +1,4 @@
-# Automatic Recognition of Lung Lesions and Anatomical Landmarks from Bronchoscopic Images   
+# Hybrid Vision Transformers for Accurate Recognition of Lung Lesions and Anatomical Structures in Bronchoscopic Imaging   
 *Deep learning pipelines for classification and segmentation using the BM-BronchoLC dataset*
 
 ---
