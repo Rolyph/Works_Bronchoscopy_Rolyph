@@ -56,16 +56,16 @@ The models are trained and evaluated on the **[BM-BronchoLC dataset](https://doi
 ## ✨ Code structuring 
 
 **1. Data Splitting**  
-**1.1 Random Splitting**  
-**1.2 Patient-wise Splitting**  
+  1.1 Random Splitting 
+  1.2 Patient-wise Splitting 
 
 **2. Classification with MedViT**  
-**2.1 Training of Classification Models**  
-**2.2 Evaluation of Classification Models**  
+  2.1 Training of Classification Models
+  2.2 Evaluation of Classification Models  
 
 **3. Segmentation with FCB-SwinV2 Transformer**  
-**3.1 Training of Segmentation Models**  
-**3.2 Evaluation of Segmentation Models**
+  3.1 Training of Segmentation Models 
+  3.2 Evaluation of Segmentation Models
 
 ---
 
