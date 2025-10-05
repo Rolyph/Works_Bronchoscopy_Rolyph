@@ -57,6 +57,7 @@ The models are trained and evaluated on the **[BM-BronchoLC dataset](https://doi
 
 **1. Data Splitting**  
   1.1 Random Splitting 
+  
   1.2 Patient-wise Splitting 
 
 **2. Classification with MedViT**  
