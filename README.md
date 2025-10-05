@@ -13,7 +13,7 @@ This project introduces **clinically oriented CNN–Transformer architectures** 
 
 ---
 
-## 🧬 Models Overview
+##  Models Overview
 
 Two custom hybrid models were developed and evaluated:
 
@@ -55,11 +55,17 @@ The models are trained and evaluated on the **[BM-BronchoLC dataset](https://doi
 
 ## ✨ Code structuring 
 
-1. **Comparative study of two data splitting strategies**: random vs. patient-wise  
-2. **Classification of cancerous lesions** using the MedViT model  
-3. **Classification of anatomical landmarks** using the MedViT model  
-4. **Segmentation of cancerous lesions** with the FCB-SwinV2 Transformer  
-5. **Segmentation of anatomical landmarks** with the FCB-SwinV2 Transformer
+**1. Data Splitting**  
+**1.1 Random Splitting**  
+**1.2 Patient-wise Splitting**  
+
+**2. Classification with MedViT**  
+**2.1 Training of Classification Models**  
+**2.2 Evaluation of Classification Models**  
+
+**3. Segmentation with FCB-SwinV2 Transformer**  
+**3.1 Training of Segmentation Models**  
+**3.2 Evaluation of Segmentation Models**
 
 ---
 
@@ -222,7 +228,7 @@ Before executing the main script, ensure you have the following Python scripts i
 
 ## 🛠️ 3.1 Training of Segmentation Models
 
-### 🔹 3.1.1 Training – Anatomical Landmarks - [Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
+### 🔹 3.1.1 Training–Anatomical Landmarks-[Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
 
 ```bash
 python Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
