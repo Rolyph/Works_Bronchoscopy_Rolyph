@@ -1,4 +1,4 @@
-# 🧠 Clinically Oriented CNN–Transformer Architectures for Reliable Bronchoscopic Recognition of Lung Lesions and Anatomical Structures  
+# Clinically Oriented CNN–Transformer Architectures for Reliable Bronchoscopic Recognition of Lung Lesions and Anatomical Structures  
 *Deep learning pipelines for classification and segmentation using the BM-BronchoLC dataset*
 
 ---
@@ -131,9 +131,9 @@ python split_patient.py \
 
 ---
 
-## 🛠️ 2. Classification with MedViT
+## 2. Classification with MedViT
 
-### 🔹 2.1 Training
+## 🛠️ 2.1 Training of Classification Models
 
 ### 🔹 2.1.1 Training – Anatomical Landmarks - [train_medvit_Anatomical_landmarks_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/train_medvit_Anatomical_landmarks_classification.py)
 
@@ -193,7 +193,7 @@ python test_medvit_Lung_lesions_classification.py \
 
 ---
 
-## 🛠️ 3. Training Segmentation Models with FCB-SwinV2 Transformer
+## 3. Segmentation with FCB-SwinV2 Transformer
 
 Before training, generate the CSV files using - [create_csv_from_folder.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/create_csv_from_folder.py) (Anatomical Landmarks) - [create_csv_from_folder.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/create_csv_from_folder.py) (Cancerous Lesions):
 
@@ -220,7 +220,7 @@ Before executing the main script, ensure you have the following Python scripts i
 
 ---
 
-### 🔹 3.1 Training
+## 🛠️ 3.1 Training of Segmentation Models
 
 ### 🔹 3.1.1 Training – Anatomical Landmarks - [Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
 
@@ -287,13 +287,13 @@ See the [LICENSE.txt](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/m
 
 ## 🤝 Acknowledgements
 
-This work was conducted in collaboration between:  
+- This work was conducted in collaboration between:  
   - **Université Polytechnique de l’Ouest Africain (UPOA)**, Dakar, Senegal  
   - **École de Technologie Supérieure (ÉTS)**, Montréal, Canada  
 
-Supported by the **Digital Research Alliance of Canada** for computational resources.
+- Supported by the **Digital Research Alliance of Canada** for computational resources.
 
-This repository includes code from the following sources:
+- This repository includes code from the following sources:
 
   - [BM-BronchoLC](https://github.com/csuet/bronchoscopy_nsd)  
   - [MedViT](https://github.com/omid-nejati/medvit)  
