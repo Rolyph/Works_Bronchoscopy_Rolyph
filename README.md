@@ -22,12 +22,14 @@ A convolution-enhanced Vision Transformer tailored for **multi-label classificat
 - Combines convolutional feature extraction with Transformer-based global attention.  
 - Pre-trained on ImageNet and fine-tuned on BM-BronchoLC.  
 - Achieves robust performance even under strict patient-based validation.
+
 Reference: https://doi.org/10.1016/j.compbiomed.2023.106791
 
 ### 🔹 **FCB-SwinV2 Transformer** — *Segmentation Model*  
 A dual-branch network coupling a **SwinV2 Transformer encoder** with a **CNN decoder**, optimized for **semantic segmentation** of bronchoscopic images.  
 - Incorporates a Feature Coupling Branch (FCB) for precise boundary reconstruction.  
 - Handles low-contrast and morphologically complex structures effectively.  
+
 Reference: https://doi.org/10.1109/ACCESS.2024.3376228
 
 ---
