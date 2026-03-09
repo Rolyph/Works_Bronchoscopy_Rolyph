@@ -314,7 +314,7 @@ See the [LICENSE.txt](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/m
 
 ---
 
-## 📬 Additional Information
+## Additional Information
 
 **Contact:** Rolyph Erwan NTOUTOUME NGUEMA  
 - email: [rolypherwan4@gmail.com](mailto:rolypherwan4@gmail.com)  
