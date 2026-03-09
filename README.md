@@ -3,7 +3,7 @@
 
 ---
 
-## 📝 Project Description
+## Project Description
 
 Lung cancer remains one of the leading causes of cancer-related deaths worldwide, with more than **2.2 million new cases** and **1.8 million deaths** recorded in 2020. Its poor 5-year survival rate (15–20%) is mainly due to **late diagnosis** and the high variability of manual interpretation during bronchoscopy procedures.  
 
@@ -17,7 +17,7 @@ This project introduces **clinically oriented CNN–Transformer architectures** 
 
 Two custom hybrid models were developed and evaluated:
 
-### 🔹 **MedViT** — *Classification Model*  
+###  **MedViT** — *Classification Model*  
 A convolution-enhanced Vision Transformer tailored for **multi-label classification** of bronchial structures and lesions.  
 - Combines convolutional feature extraction with Transformer-based global attention.  
 - Pre-trained on ImageNet and fine-tuned on BM-BronchoLC.  
@@ -25,7 +25,7 @@ A convolution-enhanced Vision Transformer tailored for **multi-label classificat
 
 Reference: https://doi.org/10.1016/j.compbiomed.2023.106791
 
-### 🔹 **FCB-SwinV2 Transformer** — *Segmentation Model*  
+###  **FCB-SwinV2 Transformer** — *Segmentation Model*  
 A dual-branch network coupling a **SwinV2 Transformer encoder** with a **CNN decoder**, optimized for **semantic segmentation** of bronchoscopic images.  
 - Incorporates a Feature Coupling Branch (FCB) for precise boundary reconstruction.  
 - Handles low-contrast and morphologically complex structures effectively.  
@@ -34,7 +34,7 @@ Reference: https://doi.org/10.1109/ACCESS.2024.3376228
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The models are trained and evaluated on the **[BM-BronchoLC dataset](https://doi.org/10.6084/m9.figshare.24243670.v3)** — the first public bronchoscopic dataset offering:  
 - **2,921 high-quality images** from **208 patients**, acquired under standardized conditions.  
@@ -43,7 +43,7 @@ The models are trained and evaluated on the **[BM-BronchoLC dataset](https://doi
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
 - End-to-end **training and inference pipelines** for classification and segmentation.  
 - Implementation in **PyTorch** with support for GPU acceleration.  
@@ -57,7 +57,7 @@ The models are trained and evaluated on the **[BM-BronchoLC dataset](https://doi
 
 ---
 
-## ✨ Code structuring 
+##  Code structuring 
 
 ### **1. Data Splitting**
    - **1.1 Random Splitting**
@@ -75,13 +75,13 @@ The models are trained and evaluated on the **[BM-BronchoLC dataset](https://doi
 
 ---
 
-## 📂 1. Data Splitting
+##  1. Data Splitting
 
 The BM-BronchoLC dataset used in this project is publicly available at the following link:  
-👉 [https://figshare.com/articles/dataset/BM-BronchoLC/24243670/3](https://figshare.com/articles/dataset/BM-BronchoLC/24243670/3)
+- [https://figshare.com/articles/dataset/BM-BronchoLC/24243670/3](https://figshare.com/articles/dataset/BM-BronchoLC/24243670/3)
 
 Before splitting the data, a preprocessing pipeline must be applied, as described in the first three steps of the **"Process data"** section from the official dataset repository:  
-👉 [https://github.com/csuet/bronchoscopy_nsd](https://github.com/csuet/bronchoscopy_nsd)
+- [https://github.com/csuet/bronchoscopy_nsd](https://github.com/csuet/bronchoscopy_nsd)
 
 After preprocessing, the data should be organized in the following structure:
 
@@ -111,7 +111,7 @@ After preprocessing, the data should be organized in the following structure:
 
 Once the data is ready, it can be split using one of the two strategies:
 
-#### 🔹 1.1 Random splitting — [split_dataset.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Data_division/split_dataset.py)
+#### 1.1 Random splitting — [split_dataset.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Data_division/split_dataset.py)
 
 ```bash
 python split_dataset.py \
@@ -126,7 +126,7 @@ python split_dataset.py \
 
 ---
 
-#### 🔹 1.2 Patient-wise splitting — [split_patient.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Data_division/split_patient.py)
+####  1.2 Patient-wise splitting — [split_patient.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Data_division/split_patient.py)
 
 ```bash
 python split_patient.py \
@@ -139,15 +139,15 @@ python split_patient.py \
   --task "Lung_lesions"  # or "Anatomical_landmarks"
 ```
 
-📌 Note: You must generate two separate datasets by switching the `--task` argument.
+ Note: You must generate two separate datasets by switching the `--task` argument.
 
 ---
 
 ## 2. Classification with MedViT
 
-## 🛠️ 2.1 Training of Classification Models
+##  2.1 Training of Classification Models
 
-#### 🔹 2.1.1 Training – Anatomical Landmarks - [train_medvit_Anatomical_landmarks_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/train_medvit_Anatomical_landmarks_classification.py)
+####  2.1.1 Training – Anatomical Landmarks - [train_medvit_Anatomical_landmarks_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/train_medvit_Anatomical_landmarks_classification.py)
 
 ```bash
 python train_medvit_Anatomical_landmarks_classification.py \
@@ -162,7 +162,7 @@ python train_medvit_Anatomical_landmarks_classification.py \
 
 ---
 
-#### 🔹 2.1.2 Training – Cancerous Lesions - [train_medvit_Lung_lesions_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/lung_lesion_Classification/train_medvit_Lung_lesions_classification.py)
+#### 2.1.2 Training – Cancerous Lesions - [train_medvit_Lung_lesions_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/lung_lesion_Classification/train_medvit_Lung_lesions_classification.py)
 
 ```bash
 python train_medvit_Lung_lesions_classification.py \
@@ -177,9 +177,9 @@ python train_medvit_Lung_lesions_classification.py \
 
 ---
 
-## 🧪 2.2 Evaluation of Classification Models
+##  2.2 Evaluation of Classification Models
 
-#### 🔹 2.2.1 Testing – Anatomical Landmarks - [test_medvit_Anatomical_landmarks_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/test_medvit_Anatomical_landmarks_classification.py)
+####  2.2.1 Testing – Anatomical Landmarks - [test_medvit_Anatomical_landmarks_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/anatomical_landmarks_Classification/test_medvit_Anatomical_landmarks_classification.py)
 
 ```bash
 python test_medvit_Anatomical_landmarks_classification.py \
@@ -192,7 +192,7 @@ python test_medvit_Anatomical_landmarks_classification.py \
 
 ---
 
-#### 🔹 2.2.2 Testing – Cancerous Lesions - [test_medvit_Lung_lesions_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/lung_lesion_Classification/test_medvit_Lung_lesions_classification.py)
+####  2.2.2 Testing – Cancerous Lesions - [test_medvit_Lung_lesions_classification.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Classification/lung_lesion_Classification/test_medvit_Lung_lesions_classification.py)
 
 ```bash
 python test_medvit_Lung_lesions_classification.py \
@@ -216,7 +216,7 @@ python create_csv_from_folder.py \
 
 ---
 
-### 🏷️ Prerequisites for Training Segmentation Models
+### Prerequisites for Training Segmentation Models
 
 Before executing the main script, ensure you have the following Python scripts in your working directory, depending on the segmentation task you wish to perform:
 
@@ -232,9 +232,9 @@ Before executing the main script, ensure you have the following Python scripts i
 
 ---
 
-## 🛠️ 3.1 Training of Segmentation Models
+## 3.1 Training of Segmentation Models
 
-#### 🔹 3.1.1 Training–Anatomical Landmarks-[Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
+####  3.1.1 Training–Anatomical Landmarks-[Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
 
 ```bash
 python Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
@@ -248,7 +248,7 @@ python Train_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
 
 ---
 
-#### 🔹 3.1.2 Training – Cancerous Lesions - [Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py)
+#### 3.1.2 Training – Cancerous Lesions - [Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py)
 
 ```bash
 python Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
@@ -263,9 +263,9 @@ python Train_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
 
 ---
 
-## 🧪 3.2 Evaluation of Segmentation Models
+## 3.2 Evaluation of Segmentation Models
 
-#### 🔹 3.2.1 Testing – Anatomical Landmarks - [Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
+#### 3.2.1 Testing – Anatomical Landmarks - [Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/anatomical_landmarks_Segmentation/Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py)
 
 ```bash
 python Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
@@ -277,7 +277,7 @@ python Test_FCBSwinV2Transformer_Segmentation_Anatomical_landmarks.py \
 
 ---
 
-#### 🔹 3.2.2 Testing – Cancerous Lesions - [Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py)
+####  3.2.2 Testing – Cancerous Lesions - [Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/Segmentation/lung_lesion_Segmentation/Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py)
 
 ```bash
 python Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
@@ -290,7 +290,7 @@ python Test_FCBSwinV2Transformer_Segmentation_LesionsCancereuses.py \
 ---
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.  
 See the [LICENSE.txt](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/main/LICENSE.txt) file for more details.
