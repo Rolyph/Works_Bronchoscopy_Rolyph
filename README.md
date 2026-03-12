@@ -1,6 +1,6 @@
 # Clinically Oriented CNN–Transformer Architectures for Reliable Bronchoscopic Recognition of Lung Lesions and Anatomical Structures  
 Official code repository for the article:
-“Clinically Oriented CNN–Transformer Architectures for Reliable Bronchoscopic Recognition of Lung Lesions and Anatomical Structures,” published in IEEE Access (March 2026).
+“***Clinically Oriented CNN–Transformer Architectures for Reliable Bronchoscopic Recognition of Lung Lesions and Anatomical Structures***” published in IEEE Access (March 2026).
 - DOI : https://doi.org/10.1109/ACCESS.2026.3670363
 
 ---
