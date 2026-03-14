@@ -299,7 +299,7 @@ See the [LICENSE.txt](https://github.com/Rolyph/Works_Bronchoscopy_Rolyph/blob/m
 
 ---
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 - This work was conducted in collaboration between:  
   - **Université Polytechnique de l’Ouest Africain (UPOA)**, Dakar, Senegal  
